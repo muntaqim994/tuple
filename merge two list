@@ -1,0 +1,6 @@
+l1=[1,5,5,5]
+l2=[2,3,5,67,8]
+l1.extend(l2)
+print(l1)
+# l1.sort()
+print(sorted(l1))
