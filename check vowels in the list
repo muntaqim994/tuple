@@ -1,0 +1,7 @@
+l1=list(input("enter the list:"))
+a="aeiouAEIOU"
+for i in l1:
+    if i in a:
+        print(i ,end=" ")
+    else:
+        pass
