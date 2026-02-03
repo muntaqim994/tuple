@@ -1,0 +1,6 @@
+l1=[1,2,3,4,5,6,6]
+mid=len(l1)//2
+first=l1[:mid]
+second=l1[mid:]
+print(first)
+print(second)
