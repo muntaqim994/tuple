@@ -1,9 +1,4 @@
-s = input("enter string: ")
-unique = set(s)
-
-for ch in unique:
-    count = 0
-    for c in s:
-        if c == ch:
-            count += 1
-    print(f"count of {ch} : {count}")
+l= [1,2,3,3]
+l1=set(l)
+for i in l1:
+    print(f"count of {i} is {l.count(i)}")
