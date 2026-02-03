@@ -1,0 +1,6 @@
+l1=["apple","banana","carrot","garphs","custred apple"]
+longest=l1[0]
+for word in l1:
+    if len(word) > len(longest):
+        longest=word
+print("longest string:",longest)
