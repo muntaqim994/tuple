@@ -1,0 +1,7 @@
+l=[1,-2,-3,44,42,45,67]
+# l1=[]
+count=0
+for i in l:
+    if i>10:
+        count=count+1
+print(count)
