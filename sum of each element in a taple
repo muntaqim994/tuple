@@ -1,0 +1,9 @@
+t=(121,234,55)
+for i in t:
+    r=0
+    num=i
+    while num>0:
+        rem=num%10
+        r=rem+r
+        num=num//10
+    print(r)
