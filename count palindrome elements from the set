@@ -1,0 +1,7 @@
+s={101,"sis","abc"}
+count=0
+for i in s:
+    x=str(i)
+    if x==x[::-1]:
+        count=count+1
+print("count of palindrome elements",count)
