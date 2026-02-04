@@ -1,0 +1,15 @@
+t=(153,120,200)
+for no in t :
+    num=no
+    number=no
+    count=0
+    while number>0:
+        count=count+1
+        number=number//10
+    sum=0
+    while num>0:
+        rem=num%10
+        sum=sum+rem**count
+        num=num//10
+    if no ==sum:
+        print(sum)
