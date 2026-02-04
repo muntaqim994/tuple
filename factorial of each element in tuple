@@ -1,0 +1,10 @@
+t = (7, 8, 9)
+t1 = []
+
+for no in t:
+    fact = 1
+    for i in range(1, no + 1):
+        fact *= i
+    t1.append(fact)
+
+print(t1)
